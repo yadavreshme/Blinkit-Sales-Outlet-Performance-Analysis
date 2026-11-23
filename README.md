@@ -141,9 +141,9 @@ Using **Pandas and Matplotlib**, we:
 
 ## 🙋‍♀️ About Me
 
-**Snehal Nalawade**  
+**yadavreshme**  
 💼 Aspiring Data Analyst | Passionate about BI and storytelling  
-📧 snehalrnalawade2003@gmail.com 
+🔗 [github.com/yadavreshme](https://github.com/yadavreshme) 
 📍 India  
 
 
