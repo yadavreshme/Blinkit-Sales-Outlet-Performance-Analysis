@@ -172,7 +172,6 @@ jupyter notebook "Blinkit Analysis.ipynb"
 
 ### Open the dashboard
 
-Open `BlinkIt.pbix` in **Power BI Desktop**, or view the static export in [`BlinkIt Dashboard.pdf`](BlinkIt%20Dashboard.pdf).
 
 ---
 
@@ -185,18 +184,4 @@ The Power BI dashboard includes:
 - Charts for fat content, item type, outlet tier, establishment year, outlet size and location
 - A **matrix** comparing all KPIs by outlet type
 
-[View the dashboard (PDF)](BlinkIt%20Dashboard.pdf) · [View the insights report (PDF)](Blinkit%20Insights.pdf)
 
----
-
-## Key Insights
-
-- **Low Fat** products bring in ~65% of total sales ($776K vs $425K for Regular).
-- **Fruits & Vegetables** and **Snack Foods** are the top-selling categories.
-- **Tier 3** outlets generate the highest sales ($472K), ahead of Tier 2 and Tier 1.
-- **Supermarket Type 1** accounts for ~66% of revenue ($788K across 5,577 items).
-- **Medium**-sized outlets contribute the largest share of revenue ($508K).
-- Outlets established in **2018** recorded the highest sales (~$205K).
-- The average customer rating is consistent (~4.0) across outlet types, so there is room to differentiate on service.
-
-See [`Blinkit Insights.pdf`](Blinkit%20Insights.pdf) for detailed findings and recommendations.
