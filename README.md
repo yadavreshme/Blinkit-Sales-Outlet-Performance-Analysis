@@ -135,19 +135,3 @@ Using **Pandas and Matplotlib**, we:
 ├── 🐍 Python Scripts (EDA.ipynb / analysis.py)
 ├── 📈 Excel Files (BlinkIT Grocery Data.xlsx)
 ├── 📄 Documentation (Insights.pdf, README.md)
-
-
----
-
-## 🙋‍♀️ About Me
-
-**yadavreshme**  
-💼 Aspiring Data Analyst | Passionate about BI and storytelling  
-🔗 [github.com/yadavreshme](https://github.com/yadavreshme) 
-📍 India  
-
-
----
-
-## 🙏 Thank You!
-
