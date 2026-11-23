@@ -1,0 +1,11 @@
+# Normalize line endings for text files
+* text=auto
+
+# Treat data, report and dashboard files as binary
+*.xlsx binary
+*.pdf  binary
+*.pbix binary
+
+# Language stats on GitHub
+*.ipynb linguist-language=Jupyter-Notebook
+*.sql   linguist-language=SQL
