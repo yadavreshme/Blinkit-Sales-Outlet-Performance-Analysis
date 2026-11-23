@@ -25,7 +25,6 @@ An end-to-end business intelligence project analysing **Blinkit's grocery sales 
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
 - [Dashboard](#dashboard)
-- [Key Insights](#key-insights)
 
 ---
 
@@ -37,7 +36,7 @@ An end-to-end business intelligence project analysing **Blinkit's grocery sales 
 - Under-performing product categories and outlets
 - Opportunities to improve revenue and operational efficiency
 
-The project mirrors a real analyst workflow: raw data → cleaning → KPI calculation → visual analysis → dashboard and recommendations.
+The project mirrors a real analyst workflow: raw data → cleaning → KPI calculation → visual analysis → interactive dashboard.
 
 ---
 
@@ -63,7 +62,7 @@ The project mirrors a real analyst workflow: raw data → cleaning → KPI calcu
 | **Notebook** | Jupyter Notebook | Reproducible analysis (`Blinkit Analysis.ipynb`) |
 | **Spreadsheet** | Microsoft Excel | Raw data, validation, pivot tables and an Excel dashboard |
 | **BI / Dashboard** | Microsoft Power BI (DAX, Power Query) | Interactive dashboard with KPI cards, slicers and a filter panel |
-| **Reporting** | PowerPoint → PDF | Insights report and dashboard export |
+| **Reporting** | PDF | Static export of the Power BI dashboard |
 
 ---
 
@@ -119,14 +118,14 @@ Raw data (Excel)
    ├─► Excel             ── validation, pivots, dashboard
    └─► Power BI          ── interactive dashboard
                                │
-                               └─► Insights report (PDF)
+                               └─► Dashboard export (PDF)
 ```
 
 1. **Data cleaning:** standardise `Item_Fat_Content` labels and check data types and missing values.
 2. **KPI calculation:** total and average sales, item count and average rating.
 3. **Granular analysis:** group by item type, fat content, outlet size, location, type and establishment year.
 4. **Visualisation:** build the charts in Python and the interactive dashboard in Power BI.
-5. **Reporting:** summarise findings and recommendations in the insights report.
+5. **Reporting:** export the dashboard to PDF for sharing.
 
 ---
 
@@ -139,7 +138,6 @@ Blinkit-Sales-Outlet-Performance-Analysis/
 ├── Blinkit Analysis.ipynb      # Python EDA and visualisations
 ├── BlinkIt.pbix                # Power BI dashboard
 ├── BlinkIt Dashboard.pdf       # Dashboard export
-├── Blinkit Insights.pdf        # Insights and recommendations report
 ├── requirements.txt            # Python dependencies
 └── README.md
 ```
@@ -172,6 +170,7 @@ jupyter notebook "Blinkit Analysis.ipynb"
 
 ### Open the dashboard
 
+Open `BlinkIt.pbix` in **Power BI Desktop**. Links to every dashboard file are in the [Dashboard](#dashboard) section.
 
 ---
 
@@ -184,4 +183,8 @@ The Power BI dashboard includes:
 - Charts for fat content, item type, outlet tier, establishment year, outlet size and location
 - A **matrix** comparing all KPIs by outlet type
 
-
+| Dashboard | Format | Link |
+|-----------|--------|------|
+| Power BI dashboard (interactive) | `.pbix` | [BlinkIt.pbix](BlinkIt.pbix) |
+| Power BI dashboard (static export) | `.pdf` | [BlinkIt Dashboard.pdf](BlinkIt%20Dashboard.pdf) |
+| Excel dashboard | `.xlsx` | [BlinkIT Grocery Data.xlsx](BlinkIT%20Grocery%20Data.xlsx) (`Dashboard` sheet) |
