@@ -140,6 +140,7 @@ Blinkit-Sales-Outlet-Performance-Analysis/
 ├── BlinkIt.pbix                # Power BI dashboard
 ├── BlinkIt Dashboard.pdf       # Dashboard export
 ├── Blinkit Insights.pdf        # Insights and recommendations report
+├── requirements.txt            # Python dependencies
 └── README.md
 ```
 
@@ -159,7 +160,7 @@ Blinkit-Sales-Outlet-Performance-Analysis/
 ```bash
 git clone https://github.com/yadavreshme/Blinkit-Sales-Outlet-Performance-Analysis.git
 cd Blinkit-Sales-Outlet-Performance-Analysis
-pip install pandas numpy matplotlib seaborn openpyxl notebook
+pip install -r requirements.txt
 jupyter notebook "Blinkit Analysis.ipynb"
 ```
 
